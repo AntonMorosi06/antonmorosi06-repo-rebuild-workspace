@@ -1,13 +1,13 @@
-# Known Limitations
+# Known limitations
 
-This file must be completed before publication.
+This is an educational visualizer, not a production clustering library.
 
-Current known limitations:
+The current implementation computes a full pairwise distance matrix and a full eigen-decomposition. This is simple and readable, but it is not suitable for very large datasets.
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+The k-means stage is intentionally small and local. It is enough for this educational visualizer but does not include every feature of a mature machine learning library.
+
+The current app supports only two-dimensional point placement because the purpose is interactive visualization in Pygame.
+
+The project does not currently load external CSV datasets. That can be added later through a loader and coordinate normalization layer.
+
+The visualizer intentionally avoids claiming hardware validation, production analytics validation or recovered historical source equivalence.
