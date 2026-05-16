@@ -1,0 +1,421 @@
+{
+  "source": "08_DATA_SCIENCE_AND_ML/csv-analyzer-dashboard/data/sample_sales.csv",
+  "row_count": 20,
+  "column_count": 9,
+  "columns": [
+    {
+      "name": "date",
+      "inferred_type": "date",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 20,
+      "numeric_summary": null,
+      "top_values": [
+        {
+          "value": "2026-01-01",
+          "count": 1
+        },
+        {
+          "value": "2026-01-02",
+          "count": 1
+        },
+        {
+          "value": "2026-01-03",
+          "count": 1
+        },
+        {
+          "value": "2026-01-04",
+          "count": 1
+        },
+        {
+          "value": "2026-01-05",
+          "count": 1
+        },
+        {
+          "value": "2026-01-06",
+          "count": 1
+        },
+        {
+          "value": "2026-01-07",
+          "count": 1
+        },
+        {
+          "value": "2026-01-08",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "region",
+      "inferred_type": "categorical",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 4,
+      "numeric_summary": null,
+      "top_values": [
+        {
+          "value": "North",
+          "count": 5
+        },
+        {
+          "value": "South",
+          "count": 5
+        },
+        {
+          "value": "East",
+          "count": 5
+        },
+        {
+          "value": "West",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "inferred_type": "categorical",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 3,
+      "numeric_summary": null,
+      "top_values": [
+        {
+          "value": "MicroBot Kit",
+          "count": 8
+        },
+        {
+          "value": "Sensor Pack",
+          "count": 7
+        },
+        {
+          "value": "Controller Board",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "units",
+      "inferred_type": "integer",
+      "total_count": 20,
+      "missing_count": 1,
+      "missing_ratio": 0.05,
+      "unique_count": 17,
+      "numeric_summary": {
+        "count": 19,
+        "min": 2.0,
+        "max": 21.0,
+        "mean": 9.736842105263158,
+        "median": 9.0,
+        "stdev": 5.373206215030256,
+        "q1": 5.5,
+        "q3": 13.5
+      },
+      "top_values": [
+        {
+          "value": "5",
+          "count": 2
+        },
+        {
+          "value": "6",
+          "count": 2
+        },
+        {
+          "value": "12",
+          "count": 1
+        },
+        {
+          "value": "7",
+          "count": 1
+        },
+        {
+          "value": "9",
+          "count": 1
+        },
+        {
+          "value": "4",
+          "count": 1
+        },
+        {
+          "value": "14",
+          "count": 1
+        },
+        {
+          "value": "16",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "unit_price",
+      "inferred_type": "float",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 3,
+      "numeric_summary": {
+        "count": 20,
+        "min": 39.5,
+        "max": 129.0,
+        "mean": 82.035,
+        "median": 89.9,
+        "stdev": 35.679867166970105,
+        "q1": 39.5,
+        "q3": 99.67500000000001
+      },
+      "top_values": [
+        {
+          "value": "89.90",
+          "count": 8
+        },
+        {
+          "value": "39.50",
+          "count": 7
+        },
+        {
+          "value": "129.00",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "revenue",
+      "inferred_type": "float",
+      "total_count": 20,
+      "missing_count": 1,
+      "missing_ratio": 0.05,
+      "unique_count": 19,
+      "numeric_summary": {
+        "count": 19,
+        "min": 237.0,
+        "max": 1438.4,
+        "mean": 725.1894736842105,
+        "median": 711.0,
+        "stdev": 375.15671672684095,
+        "q1": 422.25,
+        "q3": 1010.45
+      },
+      "top_values": [
+        {
+          "value": "1078.80",
+          "count": 1
+        },
+        {
+          "value": "276.50",
+          "count": 1
+        },
+        {
+          "value": "809.10",
+          "count": 1
+        },
+        {
+          "value": "516.00",
+          "count": 1
+        },
+        {
+          "value": "553.00",
+          "count": 1
+        },
+        {
+          "value": "645.00",
+          "count": 1
+        },
+        {
+          "value": "1438.40",
+          "count": 1
+        },
+        {
+          "value": "237.00",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "discount",
+      "inferred_type": "float",
+      "total_count": 20,
+      "missing_count": 1,
+      "missing_ratio": 0.05,
+      "unique_count": 10,
+      "numeric_summary": {
+        "count": 19,
+        "min": 0.0,
+        "max": 0.1,
+        "mean": 0.03631578947368421,
+        "median": 0.03,
+        "stdev": 0.027529888064467413,
+        "q1": 0.02,
+        "q3": 0.05
+      },
+      "top_values": [
+        {
+          "value": "0.00",
+          "count": 3
+        },
+        {
+          "value": "0.03",
+          "count": 3
+        },
+        {
+          "value": "0.02",
+          "count": 3
+        },
+        {
+          "value": "0.04",
+          "count": 3
+        },
+        {
+          "value": "0.05",
+          "count": 2
+        },
+        {
+          "value": "0.08",
+          "count": 1
+        },
+        {
+          "value": "0.06",
+          "count": 1
+        },
+        {
+          "value": "0.01",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "returned",
+      "inferred_type": "boolean",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 2,
+      "numeric_summary": null,
+      "top_values": [
+        {
+          "value": "false",
+          "count": 16
+        },
+        {
+          "value": "true",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "satisfaction",
+      "inferred_type": "float",
+      "total_count": 20,
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "unique_count": 19,
+      "numeric_summary": {
+        "count": 20,
+        "min": 6.5,
+        "max": 9.2,
+        "mean": 8.125,
+        "median": 8.25,
+        "stdev": 0.7979414303793163,
+        "q1": 7.775,
+        "q3": 8.725
+      },
+      "top_values": [
+        {
+          "value": "8.0",
+          "count": 2
+        },
+        {
+          "value": "8.7",
+          "count": 1
+        },
+        {
+          "value": "8.1",
+          "count": 1
+        },
+        {
+          "value": "8.5",
+          "count": 1
+        },
+        {
+          "value": "7.2",
+          "count": 1
+        },
+        {
+          "value": "8.9",
+          "count": 1
+        },
+        {
+          "value": "9.1",
+          "count": 1
+        },
+        {
+          "value": "6.9",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "correlations": [
+    {
+      "column_a": "units",
+      "column_b": "satisfaction",
+      "correlation": 0.8942647161606848,
+      "pair_count": 19
+    },
+    {
+      "column_a": "revenue",
+      "column_b": "satisfaction",
+      "correlation": 0.71193279745271,
+      "pair_count": 19
+    },
+    {
+      "column_a": "units",
+      "column_b": "revenue",
+      "correlation": 0.6175935002487007,
+      "pair_count": 19
+    },
+    {
+      "column_a": "unit_price",
+      "column_b": "discount",
+      "correlation": 0.5543580276361353,
+      "pair_count": 19
+    },
+    {
+      "column_a": "units",
+      "column_b": "unit_price",
+      "correlation": -0.5324805447421473,
+      "pair_count": 19
+    },
+    {
+      "column_a": "unit_price",
+      "column_b": "satisfaction",
+      "correlation": -0.33182611277456975,
+      "pair_count": 20
+    },
+    {
+      "column_a": "revenue",
+      "column_b": "discount",
+      "correlation": 0.27351627293393554,
+      "pair_count": 18
+    },
+    {
+      "column_a": "unit_price",
+      "column_b": "revenue",
+      "correlation": 0.22020236234533105,
+      "pair_count": 19
+    },
+    {
+      "column_a": "units",
+      "column_b": "discount",
+      "correlation": -0.19034170445745968,
+      "pair_count": 18
+    },
+    {
+      "column_a": "discount",
+      "column_b": "satisfaction",
+      "correlation": -0.08965412530181105,
+      "pair_count": 19
+    }
+  ]
+}

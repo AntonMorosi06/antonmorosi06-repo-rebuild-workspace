@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+reports/*.json
+reports/*.md
+data/*.tmp.csv
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg

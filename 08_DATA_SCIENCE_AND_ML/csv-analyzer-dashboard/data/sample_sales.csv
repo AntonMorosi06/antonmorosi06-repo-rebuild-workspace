@@ -1,0 +1,21 @@
+date,region,product,units,unit_price,revenue,discount,returned,satisfaction
+2026-01-01,North,MicroBot Kit,12,89.90,1078.80,0.05,false,8.7
+2026-01-02,South,Sensor Pack,7,39.50,276.50,0.00,false,8.1
+2026-01-03,East,MicroBot Kit,9,89.90,809.10,0.03,false,8.5
+2026-01-04,West,Controller Board,4,129.00,516.00,0.08,true,7.2
+2026-01-05,North,Sensor Pack,14,39.50,553.00,0.02,false,8.9
+2026-01-06,South,Controller Board,5,129.00,645.00,0.04,false,8.0
+2026-01-07,East,MicroBot Kit,16,89.90,1438.40,0.06,false,9.1
+2026-01-08,West,Sensor Pack,6,39.50,237.00,0.00,true,6.9
+2026-01-09,North,Controller Board,8,129.00,1032.00,0.05,false,8.4
+2026-01-10,South,MicroBot Kit,11,89.90,988.90,0.03,false,8.2
+2026-01-11,East,Sensor Pack,18,39.50,711.00,0.01,false,9.0
+2026-01-12,West,MicroBot Kit,3,89.90,269.70,0.10,true,6.8
+2026-01-13,North,MicroBot Kit,15,89.90,1348.50,0.04,false,8.8
+2026-01-14,South,Sensor Pack,10,39.50,395.00,0.02,false,8.3
+2026-01-15,East,Controller Board,6,129.00,774.00,0.07,false,7.9
+2026-01-16,West,Controller Board,2,129.00,258.00,0.00,true,6.5
+2026-01-17,North,Sensor Pack,21,39.50,829.50,0.03,false,9.2
+2026-01-18,South,MicroBot Kit,13,89.90,1168.70,0.04,false,8.6
+2026-01-19,East,Sensor Pack,,39.50,,0.02,false,8.0
+2026-01-20,West,MicroBot Kit,5,89.90,449.50,,false,7.4
