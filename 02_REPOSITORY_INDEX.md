@@ -1,0 +1,25 @@
+# Repository Index
+
+- 01_MICROBOT_AND_OS/microbot20-legacy-simulation-lab — source: AntonMorosi2234/MicroBot20 — priority: High
+- 01_MICROBOT_AND_OS/microbot-unity-udp-prototype — source: AntonMorosi2234/microBot — priority: Medium-High
+- 01_MICROBOT_AND_OS/microbot-os-lab — source: AntonMorosi2234/codiceMicrobotOs — priority: Very High
+- 02_DATA_SCIENCE_AND_ML/csv-analyzer — source: AntonMorosi2234/CSV_ANALYZER — priority: Medium-High
+- 02_DATA_SCIENCE_AND_ML/pca-pygame-visualizer — source: AntonMorosi2234/PCA_DEMO_PYGAME — priority: Medium
+- 02_DATA_SCIENCE_AND_ML/dbscan-pygame-visualizer — source: AntonMorosi2234/DBSCAN_PYGAME — priority: Medium
+- 02_DATA_SCIENCE_AND_ML/spectral-clustering-pygame-visualizer — source: AntonMorosi2234/SPECTRAL-CLUSTERING-PY — priority: Medium
+- 03_EMERGENT_SYSTEMS/genetic-rockets-simulation — source: AntonMorosi2234/Genetic-algorithm-simulation — priority: Medium-High
+- 03_EMERGENT_SYSTEMS/artificial-life-evolution-simulator — source: AntonMorosi2234/genetic_evolution_life — priority: High
+- 04_AI_AUDIO_CREATIVE/ai-gui-keras-classifier — source: AntonMorosi2234/AI_GUI_WORK — priority: Medium-High
+- 04_AI_AUDIO_CREATIVE/italian-voice-chatbot — source: AntonMorosi2234/AI_Vocal — priority: Medium
+- 04_AI_AUDIO_CREATIVE/ai-vocal-api-stipendio — source: AntonMorosi2234/AI_VOCAL_API_STIPENDIO — priority: High
+- 04_AI_AUDIO_CREATIVE/ai-music-composer — source: AntonMorosi2234/Ai_Music_Creator — priority: Medium-High
+- 05_WEB_AND_VISUAL/spettro-musica-4d — source: AntonMorosi2234/Spettro-Musica-4D — priority: High
+- 05_WEB_AND_VISUAL/vorsia-gt-legacy-draft — source: AntonMorosi2234/Codice — priority: Medium
+- 05_WEB_AND_VISUAL/vorsia-gt-technical-explorer — source: AntonMorosi2234/progetto_mit_grande_vero_vorsiagt — priority: Medium-High
+- 06_GAMES/python-snake-game-collection — source: AntonMorosi2234/Vorsia_GT — priority: Low-Medium
+- 06_GAMES/tetris-pygame — source: AntonMorosi2234/tetris — priority: Medium-High
+- 06_GAMES/space-invaders-pygame — source: AntonMorosi2234/Space-Invaders — priority: Medium
+- 07_STUDY_ARCHIVES/python-data-science-study-notes — source: AntonMorosi2234/mit — priority: Low-Medium
+- 08_PLACEHOLDERS_TO_RECOVER/hospital-los-prediction-recovery — source: AntonMorosi2234/hospital_LOS_prediction — priority: Medium if real files exist
+- 08_PLACEHOLDERS_TO_RECOVER/hotel-booking-cancellation-case-study — source: AntonMorosi2234/DS_Application_Case_Study_Hotel_Booking_Cancellation — priority: Medium
+- 08_PLACEHOLDERS_TO_RECOVER/genomic-data-structures-recovery — source: AntonMorosi2234/Genometic_dataStructure — priority: Low-Medium

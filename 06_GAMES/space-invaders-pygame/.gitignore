@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Node / Web
+node_modules/
+dist/
+build/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+
+# Generated outputs
+output/
+outputs/
+screenshots/generated/
+reports/generated/
+logs/
+*.log
+
+# Large/archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Models / binary artifacts
+*.h5
+*.joblib
+*.pkl
+*.onnx
+*.bin
+*.img
+*.mp4
+*.mov
