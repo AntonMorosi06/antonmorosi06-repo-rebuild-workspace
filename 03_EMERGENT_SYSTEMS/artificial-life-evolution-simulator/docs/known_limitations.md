@@ -1,13 +1,13 @@
-# Known Limitations
+# Known limitations
 
-This file must be completed before publication.
+This is an educational artificial life simulation, not a scientific biological model.
 
-Current known limitations:
+The DNA traits are simplified behavioral parameters, not a realistic genome.
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+The ecosystem can still become unbalanced. Prey can overpopulate, predators can collapse or food can dominate depending on random events and parameter settings.
+
+The current spatial hash is simple and useful for local queries, but it is not a complete physics engine or collision system.
+
+The simulation does not currently export CSV telemetry or generation history.
+
+The project intentionally avoids claiming biological accuracy, hardware validation or recovered historical source equivalence.

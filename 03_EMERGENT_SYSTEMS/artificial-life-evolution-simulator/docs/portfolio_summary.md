@@ -1,22 +1,9 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-artificial-life-evolution-simulator
+Artificial Life Evolution Simulator is an educational emergent-systems project built with Python and Pygame. It demonstrates how local rules, DNA traits, mutation, reproduction and environmental pressure can create complex ecosystem behavior.
 
-One-line summary:
-Artificial life ecosystem simulator with DNA, mutation, events, seasons and agent behavior.
+The project shows practical understanding of object-oriented Python, simulation loops, vector motion, stateful agents, genetic variation, spatial hashing, real-time visualization, documentation and repository structure.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
+The strongest portfolio angle is the richness of the model. It is not only a particle animation. It includes energy, food, predators, prey, DNA inheritance, mutation, reproduction, death, seasons, day-night dynamics, environmental events, minimap visualization and statistical telemetry.
 
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+This project can also be connected conceptually to MicroBot and swarm robotics. The same structure could later be adapted to simulate distributed micro-agents with local sensing, energy constraints, cooperative behavior, predator-like risk zones, clustering and adaptive path strategies.
