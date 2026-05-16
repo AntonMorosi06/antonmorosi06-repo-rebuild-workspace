@@ -1,82 +1,69 @@
 # Issues Backlog for pca-pygame-visualizer
 
-Source: AntonMorosi2234/PCA_DEMO_PYGAME
-
-## Planned Issues
-
-### Issue 01: Add requirements.txt and .gitignore.
+## Issue 01: Validate local run
 
 Goal:
-Prepare or improve: Add requirements.txt and .gitignore.
+Confirm the app opens and runs.
+
+Tasks:
+- [ ] Create virtual environment.
+- [ ] Install requirements.
+- [ ] Run python src/pca_demo_pygame.py.
+- [ ] Confirm window opens.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Application runs without crash.
 
-### Issue 02: Complete README with all controls and run instructions.
+## Issue 02: Add screenshot evidence
 
 Goal:
-Prepare or improve: Complete README with all controls and run instructions.
+Create portfolio evidence.
+
+Tasks:
+- [ ] Run the app.
+- [ ] Press S to save screenshot.
+- [ ] Copy best screenshot into demos/screenshots.
+- [ ] Update README if needed.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Screenshot exists under demos/screenshots.
 
-### Issue 03: Fix correlated dataset generation or update docstring.
+## Issue 03: Add optional CSV import
 
 Goal:
-Prepare or improve: Fix correlated dataset generation or update docstring.
+Allow the visualizer to load real 3D numeric data.
+
+Tasks:
+- [ ] Add argparse.
+- [ ] Support CSV with three numeric columns.
+- [ ] Document expected format.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Synthetic mode and CSV mode both work.
 
-### Issue 04: Add screenshots under demos/screenshots.
+## Issue 04: Add tests for PCA calculation
 
 Goal:
-Prepare or improve: Add screenshots under demos/screenshots.
+Validate PCA computation.
+
+Tasks:
+- [ ] Add pytest.
+- [ ] Test eigenvalue ordering.
+- [ ] Test explained variance sums to approximately one.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Tests pass.
 
-### Issue 05: Add short PCA explanation document.
+## Issue 05: Improve visual polish
 
 Goal:
-Prepare or improve: Add short PCA explanation document.
+Make the app more portfolio-ready.
+
+Tasks:
+- [ ] Add smoother camera.
+- [ ] Add optional trails or point glow.
+- [ ] Add axis labels with better positioning.
+- [ ] Add title animation.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 06: Move generated screenshots into output or ignore them.
-
-Goal:
-Prepare or improve: Move generated screenshots into output or ignore them.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 07: Add portfolio summary.
-
-Goal:
-Prepare or improve: Add portfolio summary.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Visual quality improves without reducing clarity.

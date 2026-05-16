@@ -1,0 +1,27 @@
+- name: python
+  color: "3572A5"
+  description: "Python code"
+- name: pygame
+  color: "1d76db"
+  description: "Pygame rendering and interaction"
+- name: data-science
+  color: "0e8a16"
+  description: "Data analysis and statistical visualization"
+- name: pca
+  color: "fbca04"
+  description: "Principal Component Analysis"
+- name: math-visualization
+  color: "d4c5f9"
+  description: "Mathematical visualization"
+- name: microbot-alignment
+  color: "0052cc"
+  description: "Relation to MicroBot telemetry or dimensional engine"
+- name: documentation
+  color: "0366d6"
+  description: "README and docs"
+- name: testing
+  color: "fbca04"
+  description: "Tests and validation"
+- name: portfolio-ready
+  color: "0e8a16"
+  description: "Required before public presentation"

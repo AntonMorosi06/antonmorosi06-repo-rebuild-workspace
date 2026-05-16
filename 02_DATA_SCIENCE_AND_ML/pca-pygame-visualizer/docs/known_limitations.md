@@ -1,13 +1,8 @@
 # Known Limitations
 
-This file must be completed before publication.
-
-Current known limitations:
-
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+- The dataset is synthetic.
+- The 3D projection is a simple custom projection, not a full 3D engine.
+- The app is educational and not a replacement for statistical analysis notebooks.
+- The point color modes are visual aids, not clustering results.
+- Screenshot output is local and ignored by Git.
+- No external dataset import is implemented yet.

@@ -1,22 +1,18 @@
 # Portfolio Summary
 
-Project:
-pca-pygame-visualizer
+PCA Pygame Visualizer is a compact interactive data-science visualization project.
 
-One-line summary:
-Interactive PCA visualization with Pygame and NumPy.
+It demonstrates:
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
+- NumPy linear algebra;
+- covariance matrix computation;
+- eigenvalues and eigenvectors;
+- explained variance;
+- Pygame rendering;
+- 3D-to-2D projection;
+- user interaction;
+- educational visualization.
 
-Portfolio status:
-Not ready yet.
+Best portfolio positioning:
 
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+An interactive mathematical visualizer that turns PCA into geometry, making variance directions visible in a rotating 3D point cloud.

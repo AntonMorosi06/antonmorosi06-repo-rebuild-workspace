@@ -1,5 +1,12 @@
 # Changelog
 
-## Unreleased
+## Reconstructed skeleton batch - 2026-05-16 12:24:13
 
-- Created rebuild workspace for AntonMorosi2234/PCA_DEMO_PYGAME.
+- Rebuilt PCA Pygame Visualizer as a functional skeleton.
+- Added correlated synthetic 3D dataset generation.
+- Added PCA computation with NumPy.
+- Added interactive Pygame renderer.
+- Added PCA vector visualization.
+- Added explained variance panel.
+- Added screenshot output.
+- Added documentation, issues and labels.
