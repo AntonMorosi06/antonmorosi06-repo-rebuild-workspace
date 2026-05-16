@@ -1,13 +1,14 @@
 # Known Limitations
 
-This file must be completed before publication.
+This is a prototype baseline.
 
-Current known limitations:
+Known limitations:
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+- The original source repository was not cloned automatically.
+- Unity compilation must still be tested.
+- UDP mock validation must still be performed.
+- No ESP32 hardware validation has been performed.
+- No encryption or authentication is implemented.
+- No real MicroBot actuation is validated.
+- Commands are development-level JSON strings, not a final protocol.
+- This must only be tested on trusted local networks.

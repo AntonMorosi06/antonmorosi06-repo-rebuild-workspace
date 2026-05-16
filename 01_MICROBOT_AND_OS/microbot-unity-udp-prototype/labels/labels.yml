@@ -1,0 +1,24 @@
+- name: unity
+  color: "1d76db"
+  description: "Unity/C# integration"
+- name: udp
+  color: "5319e7"
+  description: "UDP communication"
+- name: mock-validation
+  color: "fbca04"
+  description: "Local receiver or offline validation"
+- name: microbot-alignment
+  color: "0052cc"
+  description: "Relation to MicroBot ecosystem"
+- name: hardware-blocked
+  color: "fef2c0"
+  description: "Requires ESP32 or physical hardware"
+- name: documentation
+  color: "0366d6"
+  description: "README and docs"
+- name: cleanup
+  color: "c5def5"
+  description: "Structure and naming cleanup"
+- name: portfolio-ready
+  color: "0e8a16"
+  description: "Required before public presentation"

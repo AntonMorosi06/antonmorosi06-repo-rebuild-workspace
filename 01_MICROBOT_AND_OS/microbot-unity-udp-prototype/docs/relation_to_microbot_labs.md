@@ -1,16 +1,15 @@
 # Relation to microbot-labs
 
-Source repository:
-AntonMorosi2234/microBot
+This repository is an experimental Unity/UDP branch.
 
-This repository should not automatically replace microbot-labs.
+microbot-labs remains the clean public baseline for MicroBot documentation, dashboard evidence, communication protocol, validation planning and release notes.
 
-microbot-labs remains the clean documentation and validation baseline. This project should be treated as a connected branch, legacy prototype, OS lab, Unity/UDP prototype or source of reusable ideas depending on its role.
+This Unity UDP prototype may later support:
 
-Before any integration:
+- Unity simulation control;
+- VR control;
+- gesture interface bridge;
+- dashboard-to-controller testing;
+- ESP32 command transport experiments.
 
-- Identify whether the material is concept, mock, simulation, offline validation, hardware-ready or hardware-validated.
-- Do not merge legacy code blindly.
-- Extract only coherent modules.
-- Preserve historical value with documentation.
-- Keep claims technically honest.
+It should not be merged into microbot-labs until it has mock validation and clear protocol documentation.

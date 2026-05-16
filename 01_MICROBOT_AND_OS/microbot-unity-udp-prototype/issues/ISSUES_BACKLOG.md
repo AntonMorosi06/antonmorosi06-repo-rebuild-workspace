@@ -1,82 +1,59 @@
 # Issues Backlog for microbot-unity-udp-prototype
 
-Source: AntonMorosi2234/microBot
-
-## Planned Issues
-
-### Issue 01: Rename codicecomunicazione.csharp to MicroBotNetClient.cs.
+## Issue 01: Test Unity compilation
 
 Goal:
-Prepare or improve: Rename codicecomunicazione.csharp to MicroBotNetClient.cs.
+Confirm that `MicroBotNetClient.cs` compiles inside Unity.
+
+Tasks:
+- [ ] Create a Unity project.
+- [ ] Add the script to `Assets/Scripts`.
+- [ ] Attach it to an empty GameObject.
+- [ ] Check Unity console.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- No compile errors.
+- Screenshot added to demos/screenshots.
 
-### Issue 02: Separate MicroBotNetClient and MicroBotNetDebug.
+## Issue 02: Run local mock UDP receiver
 
 Goal:
-Prepare or improve: Separate MicroBotNetClient and MicroBotNetDebug.
+Confirm that the Python mock receiver listens on UDP port 4210.
+
+Tasks:
+- [ ] Run `python3 tools/mock_udp_receiver.py`.
+- [ ] Confirm it listens without errors.
+- [ ] Save terminal output.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Receiver output is saved in demos/logs.
 
-### Issue 03: Fix C# using/import structure.
+## Issue 03: Send first Unity packet
 
 Goal:
-Prepare or improve: Fix C# using/import structure.
+Send a packet from Unity to the mock receiver.
+
+Tasks:
+- [ ] Configure IP 127.0.0.1.
+- [ ] Configure port 4210.
+- [ ] Trigger SendPing.
+- [ ] Confirm packet appears in terminal.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Packet log exists.
+- README evidence section is updated.
 
-### Issue 04: Add Unity usage notes.
+## Issue 04: Prepare ESP32 receiver plan
 
 Goal:
-Prepare or improve: Add Unity usage notes.
+Write the future ESP32 test plan.
+
+Tasks:
+- [ ] Define UDP port.
+- [ ] Define packet parser behavior.
+- [ ] Define safety rejection behavior.
+- [ ] Define timeout stop behavior.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 05: Add UDP protocol notes.
-
-Goal:
-Prepare or improve: Add UDP protocol notes.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 06: Add relation_to_microbot_labs document.
-
-Goal:
-Prepare or improve: Add relation_to_microbot_labs document.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 07: Add known limitations.
-
-Goal:
-Prepare or improve: Add known limitations.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- ESP32 plan exists.
+- Status remains not hardware-validated until tested.
