@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black Hole Web Simulation</title>
+  <meta name="description" content="Canvas-based black-hole-inspired particle simulation reconstructed as a clean static web project.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Physics-inspired Canvas Lab</p>
+        <h1>Black Hole Web Simulation</h1>
+      </div>
+      <div class="status-card">
+        <span class="status-dot" id="statusDot"></span>
+        <div>
+          <strong id="statusLabel">Running</strong>
+          <small>Simplified educational visualization</small>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="canvas-panel">
+        <canvas id="simulationCanvas" width="1280" height="820" aria-label="Black hole particle simulation canvas"></canvas>
+
+        <div class="canvas-hud">
+          <div>
+            <span>Particles</span>
+            <strong id="particlesMetric">0</strong>
+          </div>
+          <div>
+            <span>Absorbed</span>
+            <strong id="absorbedMetric">0</strong>
+          </div>
+          <div>
+            <span>Mode</span>
+            <strong id="modeMetric">edge</strong>
+          </div>
+          <div>
+            <span>Energy</span>
+            <strong id="energyMetric">0.00</strong>
+          </div>
+        </div>
+      </section>
+
+      <aside class="control-panel">
+        <section class="panel-section">
+          <h2>Runtime controls</h2>
+          <div class="button-grid">
+            <button id="pauseButton">Pause</button>
+            <button id="resetButton">Reset</button>
+            <button id="burstButton">Burst</button>
+            <button id="jetsButton">Jets on</button>
+            <button id="trailsButton">Trails on</button>
+            <button id="debugButton">Debug on</button>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Spawn mode</h2>
+          <div class="mode-grid" id="modeButtons"></div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Simulation parameters</h2>
+          <label>
+            Mass
+            <input id="massSlider" type="range" min="0.4" max="2.6" step="0.01" value="1.0">
+          </label>
+          <label>
+            Particle target
+            <input id="particleSlider" type="range" min="160" max="1400" step="10" value="620">
+          </label>
+          <label>
+            Trail opacity
+            <input id="trailSlider" type="range" min="0.05" max="0.95" step="0.01" value="0.42">
+          </label>
+          <label>
+            Disk energy
+            <input id="energySlider" type="range" min="0.4" max="2.2" step="0.01" value="1.0">
+          </label>
+          <label>
+            Lensing intensity
+            <input id="lensingSlider" type="range" min="0.0" max="2.4" step="0.01" value="1.0">
+          </label>
+        </section>
+
+        <section class="panel-section telemetry">
+          <h2>Telemetry</h2>
+          <dl>
+            <div>
+              <dt>Frame</dt>
+              <dd id="frameMetric">0</dd>
+            </div>
+            <div>
+              <dt>Shockwaves</dt>
+              <dd id="shockwaveMetric">0</dd>
+            </div>
+            <div>
+              <dt>Mass scale</dt>
+              <dd id="massMetric">1.00</dd>
+            </div>
+            <div>
+              <dt>Lensing</dt>
+              <dd id="lensingMetric">1.00</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="panel-section warning">
+          <h2>Scientific note</h2>
+          <p>
+            This is a simplified educational visualization. It is not general relativity,
+            not physical ray tracing and not a real astrophysical solver.
+          </p>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>Canvas 2D</span>
+      <span>Particle system</span>
+      <span>Simplified physics model</span>
+      <span>No GR claim</span>
+    </footer>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

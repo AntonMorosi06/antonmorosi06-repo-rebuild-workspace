@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.vscode/
+node_modules/
+dist/
+build/
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+data/*.json
+data/*.csv
