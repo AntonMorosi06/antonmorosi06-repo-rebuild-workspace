@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-python-snake-game-collection
+Python Snake Game Collection is a small but clean game architecture project. It demonstrates how to reuse a shared game engine across multiple user interfaces.
 
-One-line summary:
-Python Snake game collection with curses, Tkinter, Pygame and launcher.
+The project shows practical understanding of Python dataclasses, enum-based directions, state updates, collision detection, terminal rendering, Tkinter GUI, optional Pygame rendering, launcher design, documentation and tests.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The strongest portfolio angle is not the complexity of Snake itself. The value is in the clean separation between game logic and rendering adapters.
