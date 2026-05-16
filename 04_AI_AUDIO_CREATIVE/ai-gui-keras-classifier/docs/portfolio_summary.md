@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-ai-gui-keras-classifier
+AI GUI Keras Classifier is an educational machine learning application with a desktop GUI. It demonstrates how to connect data generation, preprocessing, classification and user interaction in a clean Python project.
 
-One-line summary:
-Tkinter GUI with Keras classifier, synthetic dataset and retraining workflow.
+The project shows practical understanding of Tkinter, NumPy, synthetic datasets, feature scaling, binary classification, optional Keras integration, fallback model design, validation checks and responsible documentation.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The strongest portfolio angle is that the project is not just a notebook. It is structured as a small application with a GUI, package modules, documentation, model card, tests and clear limitations.
