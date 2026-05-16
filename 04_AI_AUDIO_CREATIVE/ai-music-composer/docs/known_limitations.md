@@ -1,13 +1,13 @@
-# Known Limitations
+# Known limitations
 
-This file must be completed before publication.
+This is an educational composer, not a professional music production system.
 
-Current known limitations:
+The Markov model is rule-based and not trained on a real corpus.
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+The harmonic system is simple and does not yet include advanced voice leading.
+
+The WAV renderer uses sine waves and simple noise drums, so it sounds basic.
+
+The MIDI writer supports the project needs but is not a complete MIDI editing library.
+
+The project does not currently include a GUI, web player or real-time playback interface.

@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-ai-music-composer
+AI Music Composer is an educational algorithmic music generation project. It demonstrates how to represent musical events, generate melodies with Markov-style transitions, create harmonic layers and export both MIDI and WAV preview files.
 
-One-line summary:
-Generative music composer with Markov chains, MIDI and WAV export.
+The project shows practical understanding of Python packaging, symbolic music, MIDI structure, procedural generation, deterministic seeds, simple synthesis, documentation and testing.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The strongest portfolio angle is that the repository is self-contained. It can create a multi-track MIDI file without external MIDI libraries and can produce an audible WAV preview using only the standard library.

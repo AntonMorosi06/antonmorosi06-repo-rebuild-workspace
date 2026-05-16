@@ -1,3 +1,1 @@
-numpy
-mido
-python-rtmidi
+pytest>=8.0.0
