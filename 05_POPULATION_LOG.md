@@ -24,3 +24,24 @@ Processed third AntonMorosi2234 repository:
 The script attempted to clone the original repository. If clone succeeded, it archived the original and preserved detected boot/kernel sources. If clone failed, it documented the failure and preserved the cleaned baseline.
 
 A build attempt log was generated when make and nasm were available.
+
+
+## 2026-05-16 12:18:09
+
+Rebuilt microbot-os-lab as a reconstructed skeleton.
+
+Decision:
+Do not clone AntonMorosi2234 repositories automatically from now on.
+
+Reason:
+Terminal access returns repository not found.
+
+Action:
+Created source skeleton manually based on project analysis:
+
+- Makefile
+- src/boot.asm
+- src/kernel.asm
+- docs
+- issues
+- labels

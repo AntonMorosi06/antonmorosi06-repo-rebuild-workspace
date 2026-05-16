@@ -1,74 +1,54 @@
 # Issues Backlog for microbot-os-lab
 
-## Issue 01: Verify canonical bootloader
+## Issue 01: Validate build
 
 Goal:
-Confirm that src/boot.asm is the correct canonical bootloader.
-
-Tasks:
-- [ ] Check boot signature.
-- [ ] Check load address.
-- [ ] Check kernel sector count.
-- [ ] Check disk error handling.
-- [ ] Compare imported original if available.
-
-Acceptance criteria:
-- Bootloader is documented and buildable.
-
-## Issue 02: Verify canonical kernel
-
-Goal:
-Confirm that src/kernel.asm is the correct canonical kernel baseline.
-
-Tasks:
-- [ ] Check text output.
-- [ ] Check keyboard navigation.
-- [ ] Check MicroBot panel.
-- [ ] Check diagnostics screen.
-- [ ] Compare imported original if available.
-
-Acceptance criteria:
-- Kernel builds and boots in QEMU.
-
-## Issue 03: Validate build
-
-Goal:
-Run make clean and make.
+Confirm the reconstructed skeleton builds.
 
 Tasks:
 - [ ] Run make clean.
 - [ ] Run make.
-- [ ] Save output in demos/logs.
-- [ ] Fix build errors if present.
+- [ ] Confirm build/microbot_os.img exists.
 
 Acceptance criteria:
-- build/microbot_os.img is created.
+- Build succeeds or error log is saved.
 
-## Issue 04: Validate QEMU boot
+## Issue 02: Validate QEMU boot
 
 Goal:
-Run the generated image in QEMU.
+Confirm the generated image boots in QEMU.
 
 Tasks:
 - [ ] Run make run.
-- [ ] Confirm boot screen.
-- [ ] Confirm keyboard screen switching.
-- [ ] Add screenshot evidence.
+- [ ] Confirm MicroBot OS screen appears.
+- [ ] Confirm keyboard navigation.
 
 Acceptance criteria:
-- Screenshot exists under demos/screenshots.
+- Screenshot added to demos/screenshots.
 
-## Issue 05: Finalize v0.1.0 release notes
+## Issue 03: Improve kernel screen layout
 
 Goal:
-Convert docs/release_notes_v0_1_0.md from draft to final.
+Make the text UI cleaner.
 
 Tasks:
-- [ ] Confirm build status.
-- [ ] Confirm boot status.
-- [ ] Add screenshot.
-- [ ] Update README.
-- [ ] Update CHANGELOG.
+- [ ] Improve spacing.
+- [ ] Add version line.
+- [ ] Add state table.
+- [ ] Keep text within screen width.
 
 Acceptance criteria:
-- Release notes match actual validated behavior.
+- QEMU screen is readable.
+
+## Issue 04: Add shell parser plan
+
+Goal:
+Prepare next version.
+
+Tasks:
+- [ ] Define command buffer.
+- [ ] Define supported commands.
+- [ ] Define unknown command behavior.
+
+Acceptance criteria:
+- docs/shell_commands.md is updated.

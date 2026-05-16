@@ -1,16 +1,15 @@
 # Changelog
 
-## Unreleased
+## Reconstructed skeleton batch - 2026-05-16 12:18:09
 
-- Created rebuild workspace for AntonMorosi2234/codiceMicrobotOs.
-
-
-## OS import or repair batch - 2026-05-16 12:15:17
-
-- Attempted import from AntonMorosi2234/codiceMicrobotOs.
-- Preserved or documented original source import status.
-- Added manual merge plan.
-- Added v0.1.0 release notes draft.
-- Updated issue backlog.
-- Updated labels.
-- Added build attempt log.
+- Created reconstructed MicroBot OS Lab skeleton.
+- Added Makefile.
+- Added src/boot.asm.
+- Added src/kernel.asm.
+- Added build and run documentation.
+- Added architecture documentation.
+- Added source import status.
+- Added QEMU validation checklist.
+- Added known limitations.
+- Added issue backlog.
+- Added labels YAML.

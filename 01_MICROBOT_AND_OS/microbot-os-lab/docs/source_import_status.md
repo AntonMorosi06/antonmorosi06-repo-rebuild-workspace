@@ -1,25 +1,31 @@
 # Source Import Status
 
 Date:
-2026-05-16 12:15:17
+2026-05-16 12:18:09
 
-Attempted source:
+Original source:
 AntonMorosi2234/codiceMicrobotOs
 
-Result:
-Clone failed from terminal.
+Current decision:
+Do not clone from AntonMorosi2234 automatically.
 
-Git output:
+Reason:
+The terminal cannot access AntonMorosi2234 repositories reliably and returns `Repository not found`.
 
+Current strategy:
+Use a reconstructed clean skeleton based on the already analyzed project direction.
 
+Status:
+Skeleton created manually.
 
-Cloning into '/Users/antonmorosi/Desktop/ANTONMOROSI06_REPO_REBUILD_WORKSPACE/_TEMP_IMPORTS/codiceMicrobotOs'...
-remote: Repository not found.
-fatal: repository 'https://github.com/AntonMorosi2234/codiceMicrobotOs.git/' not found
+Canonical files:
 
+- src/boot.asm
+- src/kernel.asm
+- Makefile
 
-Interpretation:
-The local workspace is not broken. The source repository may be private, renamed, deleted, or inaccessible from the current Git credentials.
+If the original source becomes available later, copy it manually into:
 
-Action:
-The existing cleaned MicroBot OS Lab baseline remains active. Original source can be imported later manually if needed.
+archive/original_detected_sources
+
+Then compare manually before merging.

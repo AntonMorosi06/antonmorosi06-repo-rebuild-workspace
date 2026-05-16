@@ -1,48 +1,74 @@
-# microbot-os-lab
+# MicroBot OS Lab
 
-Source repository: AntonMorosi2234/codiceMicrobotOs
+MicroBot OS Lab is a reconstructed low-level operating-system laboratory connected to the wider MicroBot ecosystem.
 
-Planned role:
-MicroBot OS low-level experimental repository with bootloader, kernel, QEMU and text UI.
+This folder is not an automatic clone of the old AntonMorosi2234 repository. The terminal could not access the original source repository, so this version is intentionally built as a clean skeleton based on the known project direction: bootloader, kernel, QEMU, text-mode interface, diagnostics, shell planning and MicroBot-oriented state.
 
-Priority:
-Very High
+The goal is to create a reliable baseline that can later receive the original code manually if it becomes available.
 
-Current classification:
-Technically distinctive. Needs build verification and source tree cleanup.
+## Current status
 
-MicroBot relevance:
-Direct
+Status: reconstructed skeleton.
 
-This folder is a rebuild workspace. It does not yet contain the original source code. The purpose is to prepare a cleaner, safer and more professional version of the source repository before publication or migration to AntonMorosi06.
+This folder contains:
 
-Immediate rule:
-Do not copy generated environments, secrets, private files, large archives, broken outputs, node_modules, .venv folders, API keys, .env files, personal data or unverified claims.
+- a minimal bootloader skeleton in `src/boot.asm`;
+- a minimal kernel skeleton in `src/kernel.asm`;
+- a NASM/QEMU `Makefile`;
+- documentation for architecture, boot process, build, validation and limitations;
+- issue backlog;
+- labels;
+- source import status.
 
-Recommended next step:
-Import the original source files manually, then apply the issues listed in issues/ISSUES_BACKLOG.md.
+## What this project is
 
+MicroBot OS Lab is an educational low-level systems project. It explores how a minimal bootable environment can become a specialized diagnostic and control interface for MicroBot concepts.
 
-## Source import status
+It is useful for:
 
-The source import process has been attempted for the original AntonMorosi2234/codiceMicrobotOs repository.
+- bootloader study;
+- kernel basics;
+- BIOS interrupt usage;
+- text-mode screen systems;
+- keyboard input;
+- MicroBot diagnostics concepts;
+- future shell design.
 
-If the clone succeeded, the original repository snapshot is archived under:
+## What this project is not
 
-archive/original_repository_snapshot
+This project is not a production operating system.
 
-Detected original source files are archived under:
+It does not currently include:
 
-archive/original_detected_sources
+- protected mode;
+- multitasking;
+- memory management;
+- filesystem support;
+- networking;
+- ESP32 communication;
+- real MicroBot hardware control;
+- physical validation.
 
-If the clone failed, the reason is documented in:
+## Build
 
-docs/source_import_status.md
+Install dependencies on macOS:
 
-The cleaned baseline remains:
+    brew install nasm qemu make
 
-src/boot.asm
-src/kernel.asm
-Makefile
+Build:
 
-Imported original files, if present, are comparison material only until manually merged and validated.
+    make
+
+Run:
+
+    make run
+
+Clean:
+
+    make clean
+
+## Relationship to microbot-labs
+
+`microbot-labs` remains the clean public baseline for MicroBot documentation, validation, protocol planning, dashboard evidence and release history.
+
+`microbot-os-lab` is a connected experimental branch focused on low-level OS thinking.
