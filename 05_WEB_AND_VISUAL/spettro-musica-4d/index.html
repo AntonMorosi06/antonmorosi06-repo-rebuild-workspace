@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spettro Musica 4D — Audio Reactive Dimension Lab</title>
+  <meta name="description" content="Static audio-reactive 4D visualization lab reconstructed as a clean portfolio skeleton.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Audio Reactive Dimension Lab</p>
+        <h1>Spettro Musica 4D</h1>
+        <p class="hero-text">
+          Visualizzazione generativa di spettro audio, tesseract projection e stati dimensionali.
+          La quarta dimensione qui è un modello matematico e informazionale, non una prova fisica.
+        </p>
+      </div>
+      <div class="status-card">
+        <span class="status-dot" id="audioStatusDot"></span>
+        <div>
+          <strong id="audioStatusLabel">Synthetic mode</strong>
+          <small id="audioStatusDescription">Microfono non attivo. Segnale interno simulato.</small>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="visual-panel">
+        <canvas id="mainCanvas" width="1200" height="760" aria-label="4D audio reactive visualization"></canvas>
+        <div class="canvas-overlay">
+          <div>
+            <span>Energy</span>
+            <strong id="energyValue">0.00</strong>
+          </div>
+          <div>
+            <span>Dominant band</span>
+            <strong id="bandValue">synthetic</strong>
+          </div>
+          <div>
+            <span>W-depth</span>
+            <strong id="wDepthValue">1.80</strong>
+          </div>
+        </div>
+      </section>
+
+      <aside class="control-panel">
+        <section class="panel-section">
+          <h2>Audio engine</h2>
+          <p>
+            Avvia il microfono solo se vuoi usare audio reale. Senza permesso, la demo resta in modalità sintetica.
+          </p>
+          <div class="button-row">
+            <button id="startMicButton">Start microphone</button>
+            <button id="stopMicButton" class="secondary">Stop</button>
+          </div>
+          <button id="syntheticButton" class="wide secondary">Use synthetic signal</button>
+        </section>
+
+        <section class="panel-section">
+          <h2>Dimension controls</h2>
+          <label>
+            W-depth
+            <input id="wDepthSlider" type="range" min="0.8" max="4.0" step="0.01" value="1.8">
+          </label>
+          <label>
+            Rotation speed
+            <input id="rotationSlider" type="range" min="0.1" max="2.5" step="0.01" value="0.82">
+          </label>
+          <label>
+            Audio sensitivity
+            <input id="sensitivitySlider" type="range" min="0.2" max="3.0" step="0.01" value="1.35">
+          </label>
+          <button id="resetButton" class="wide">Reset parameters</button>
+        </section>
+
+        <section class="panel-section">
+          <h2>Telemetry</h2>
+          <dl class="telemetry-grid">
+            <div>
+              <dt>Mode</dt>
+              <dd id="modeMetric">synthetic</dd>
+            </div>
+            <div>
+              <dt>Frame</dt>
+              <dd id="frameMetric">0</dd>
+            </div>
+            <div>
+              <dt>Particles</dt>
+              <dd id="particleMetric">160</dd>
+            </div>
+            <div>
+              <dt>Projection</dt>
+              <dd>4D → 2D</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="panel-section conceptual">
+          <h2>Conceptual note</h2>
+          <p>
+            Il tesseract visualizzato è una proiezione computazionale. L'audio modifica energia,
+            colore, scala e profondità apparente. Non è fisica sperimentale: è design informazionale.
+          </p>
+        </section>
+
+        <section class="panel-section glb-box">
+          <h2>Future GLB viewer</h2>
+          <p>
+            Area riservata a un futuro modello GLB: MicroBot, drone carrier, audio cube o oggetto 4D simbolico.
+          </p>
+          <div class="glb-placeholder">GLB SLOT</div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>Reconstructed static skeleton</span>
+      <span>Canvas + Web Audio + dimensional visualization</span>
+      <span>No physical 4D claim</span>
+    </footer>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

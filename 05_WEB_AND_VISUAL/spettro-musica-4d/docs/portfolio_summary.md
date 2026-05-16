@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-spettro-musica-4d
+Spettro Musica 4D is a static creative coding lab for audio-reactive dimensional visualization. It demonstrates Canvas rendering, modular JavaScript, Web Audio analysis, responsive interface design, projection mathematics and responsible conceptual framing.
 
-One-line summary:
-Web-based audio-reactive 4D and dimensional visualization lab.
+The strongest portfolio angle is the combination of visual polish and methodological caution. The project looks like an advanced dimensional visualizer, but it explicitly explains that 4D is used as a mathematical and informational abstraction.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+This project can be presented as part of a broader MicroBot interface and simulation ecosystem, especially for telemetry, dimensional state visualization, audio-reactive dashboards and experimental web interaction.
