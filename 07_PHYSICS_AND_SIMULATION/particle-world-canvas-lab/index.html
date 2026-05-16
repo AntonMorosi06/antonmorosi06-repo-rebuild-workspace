@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Particle World Canvas Lab</title>
+  <meta name="description" content="Canvas-based particle world simulation reconstructed as a clean static web project.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Physics-inspired particle lab</p>
+        <h1>Particle World Canvas Lab</h1>
+        <p class="subtitle">
+          Vector fields, attractors, repulsors, vortex dynamics and emergent visual motion in a dependency-free web simulation.
+        </p>
+      </div>
+
+      <div class="status-card">
+        <span id="statusDot" class="status-dot"></span>
+        <div>
+          <strong id="statusLabel">Running</strong>
+          <small>Simplified educational model</small>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="canvas-panel">
+        <canvas id="particleCanvas" width="1280" height="820" aria-label="Particle world simulation canvas"></canvas>
+
+        <div class="canvas-hud">
+          <div>
+            <span>Particles</span>
+            <strong id="particleMetric">0</strong>
+          </div>
+          <div>
+            <span>Average speed</span>
+            <strong id="speedMetric">0.00</strong>
+          </div>
+          <div>
+            <span>Energy</span>
+            <strong id="energyMetric">0.00</strong>
+          </div>
+          <div>
+            <span>Preset</span>
+            <strong id="presetMetric">calm</strong>
+          </div>
+        </div>
+      </section>
+
+      <aside class="control-panel">
+        <section class="panel-section">
+          <h2>Runtime controls</h2>
+          <div class="button-grid">
+            <button id="pauseButton">Pause</button>
+            <button id="resetButton">Reset</button>
+            <button id="burstButton">Burst</button>
+            <button id="trailsButton">Trails on</button>
+            <button id="debugButton">Debug on</button>
+            <button id="mouseModeButton">Mouse attract</button>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Presets</h2>
+          <div id="presetButtons" class="preset-grid"></div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Parameters</h2>
+          <label>
+            Particle count
+            <input id="countSlider" type="range" min="80" max="1600" step="20" value="520">
+          </label>
+          <label>
+            Field strength
+            <input id="fieldSlider" type="range" min="0.1" max="3.0" step="0.01" value="1.0">
+          </label>
+          <label>
+            Damping
+            <input id="dampingSlider" type="range" min="0.88" max="0.999" step="0.001" value="0.986">
+          </label>
+          <label>
+            Turbulence
+            <input id="turbulenceSlider" type="range" min="0.0" max="2.4" step="0.01" value="0.35">
+          </label>
+          <label>
+            Trail opacity
+            <input id="trailSlider" type="range" min="0.03" max="0.9" step="0.01" value="0.38">
+          </label>
+          <label>
+            Mouse influence
+            <input id="mouseSlider" type="range" min="0.0" max="3.0" step="0.01" value="1.0">
+          </label>
+          <label>
+            Speed
+            <input id="speedSlider" type="range" min="0.2" max="2.6" step="0.01" value="1.0">
+          </label>
+        </section>
+
+        <section class="panel-section telemetry">
+          <h2>Telemetry</h2>
+          <dl>
+            <div>
+              <dt>Frame</dt>
+              <dd id="frameMetric">0</dd>
+            </div>
+            <div>
+              <dt>Mode</dt>
+              <dd id="modeMetric">orbit</dd>
+            </div>
+            <div>
+              <dt>Mouse</dt>
+              <dd id="mouseMetric">attract</dd>
+            </div>
+            <div>
+              <dt>Field</dt>
+              <dd id="fieldMetric">1.00</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="panel-section warning">
+          <h2>Scientific note</h2>
+          <p>
+            This lab uses simplified vector fields and numerical integration. It is a visual and educational model,
+            not a precise physical solver.
+          </p>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>Canvas 2D</span>
+      <span>Particle system</span>
+      <span>Vector fields</span>
+      <span>MicroBot-ready concept mapping</span>
+    </footer>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
