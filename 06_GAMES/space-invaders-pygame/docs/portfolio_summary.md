@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-space-invaders-pygame
+Space Invaders Pygame is a reconstructed arcade shooter project. It demonstrates game-loop structure, entity modeling, collision detection, scoring, level progression, high score persistence and Pygame rendering.
 
-One-line summary:
-Python/Pygame Space Invaders arcade clone.
+The strongest portfolio angle is the split between the pure Python core and the Pygame adapter. The core can be smoke-tested and unit-tested without requiring a graphical display.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The project fits well in a game/programming portfolio next to Snake, Tetris, simulations and other Python visual projects.

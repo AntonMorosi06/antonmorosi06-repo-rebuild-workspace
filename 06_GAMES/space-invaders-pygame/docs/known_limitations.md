@@ -1,13 +1,17 @@
-# Known Limitations
+# Known limitations
 
-This file must be completed before publication.
+This is an educational arcade shooter inspired by a classic genre, not an official implementation.
 
-Current known limitations:
+There are no external sprites yet.
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+There are no sound effects yet.
+
+There is no main menu yet.
+
+There are no shields or bunkers yet.
+
+There are no explosion particles yet.
+
+Alien movement and firing are intentionally simple.
+
+High score persistence stores only one local score.
