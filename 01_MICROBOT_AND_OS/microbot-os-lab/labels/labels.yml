@@ -1,0 +1,39 @@
+- name: os
+  color: "5319e7"
+  description: "Operating-system layer work"
+- name: bootloader
+  color: "fbca04"
+  description: "Boot sector and disk-loading logic"
+- name: kernel
+  color: "6f42c1"
+  description: "Kernel code and screen/input behavior"
+- name: assembly
+  color: "d4c5f9"
+  description: "NASM/x86 assembly"
+- name: qemu
+  color: "1d76db"
+  description: "QEMU build/run validation"
+- name: source-import
+  color: "38bdf8"
+  description: "Imported original repository material"
+- name: manual-merge
+  color: "fef2c0"
+  description: "Requires manual comparison before merging"
+- name: documentation
+  color: "0366d6"
+  description: "README and docs"
+- name: testing
+  color: "fbca04"
+  description: "Manual or automated validation"
+- name: demo
+  color: "0e8a16"
+  description: "Screenshots and run evidence"
+- name: cleanup
+  color: "c5def5"
+  description: "Naming, structure and formatting cleanup"
+- name: microbot-alignment
+  color: "0052cc"
+  description: "Relation to MicroBot ecosystem and microbot-labs"
+- name: portfolio-ready
+  color: "0e8a16"
+  description: "Required before public presentation"

@@ -1,104 +1,74 @@
 # Issues Backlog for microbot-os-lab
 
-Source: AntonMorosi2234/codiceMicrobotOs
-
-## Planned Issues
-
-### Issue 01: Verify source tree and align Makefile paths.
+## Issue 01: Verify canonical bootloader
 
 Goal:
-Prepare or improve: Verify source tree and align Makefile paths.
+Confirm that src/boot.asm is the correct canonical bootloader.
+
+Tasks:
+- [ ] Check boot signature.
+- [ ] Check load address.
+- [ ] Check kernel sector count.
+- [ ] Check disk error handling.
+- [ ] Compare imported original if available.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Bootloader is documented and buildable.
 
-### Issue 02: Add .gitignore for build artifacts.
+## Issue 02: Verify canonical kernel
 
 Goal:
-Prepare or improve: Add .gitignore for build artifacts.
+Confirm that src/kernel.asm is the correct canonical kernel baseline.
+
+Tasks:
+- [ ] Check text output.
+- [ ] Check keyboard navigation.
+- [ ] Check MicroBot panel.
+- [ ] Check diagnostics screen.
+- [ ] Compare imported original if available.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Kernel builds and boots in QEMU.
 
-### Issue 03: Add build_and_run.md for NASM and QEMU.
+## Issue 03: Validate build
 
 Goal:
-Prepare or improve: Add build_and_run.md for NASM and QEMU.
+Run make clean and make.
+
+Tasks:
+- [ ] Run make clean.
+- [ ] Run make.
+- [ ] Save output in demos/logs.
+- [ ] Fix build errors if present.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- build/microbot_os.img is created.
 
-### Issue 04: Add QEMU boot screenshot evidence.
+## Issue 04: Validate QEMU boot
 
 Goal:
-Prepare or improve: Add QEMU boot screenshot evidence.
+Run the generated image in QEMU.
+
+Tasks:
+- [ ] Run make run.
+- [ ] Confirm boot screen.
+- [ ] Confirm keyboard screen switching.
+- [ ] Add screenshot evidence.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Screenshot exists under demos/screenshots.
 
-### Issue 05: Add bootloader architecture document.
+## Issue 05: Finalize v0.1.0 release notes
 
 Goal:
-Prepare or improve: Add bootloader architecture document.
+Convert docs/release_notes_v0_1_0.md from draft to final.
+
+Tasks:
+- [ ] Confirm build status.
+- [ ] Confirm boot status.
+- [ ] Add screenshot.
+- [ ] Update README.
+- [ ] Update CHANGELOG.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 06: Add kernel design document.
-
-Goal:
-Prepare or improve: Add kernel design document.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 07: Add shell command reference.
-
-Goal:
-Prepare or improve: Add shell command reference.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 08: Add relation_to_microbot_labs document.
-
-Goal:
-Prepare or improve: Add relation_to_microbot_labs document.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 09: Create v0.6 status summary.
-
-Goal:
-Prepare or improve: Create v0.6 status summary.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Release notes match actual validated behavior.
