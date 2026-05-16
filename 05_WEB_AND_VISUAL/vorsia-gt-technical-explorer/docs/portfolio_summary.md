@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-vorsia-gt-technical-explorer
+Vorsia GT Technical Explorer is a fictional automotive technical interface built as a static web project. It demonstrates visual storytelling, modular JavaScript, canvas rendering, synthetic telemetry and responsive UI design.
 
-One-line summary:
-Improved public Vorsia GT static automotive web experience.
+The strongest portfolio angle is that the project presents a complex technical concept in a clean, interactive and accessible way. It is not just a landing page. It behaves like a small engineering explorer with subsystem selection and live-style dashboard values.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The project can sit inside a broader portfolio next to MicroBot, simulation projects, creative coding and technical documentation work.

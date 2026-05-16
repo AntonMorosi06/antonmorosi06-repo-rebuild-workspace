@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vorsia GT Technical Explorer</title>
+  <meta name="description" content="Fictional GT concept technical explorer reconstructed as a clean static web portfolio project.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar" aria-label="Primary navigation">
+        <div class="brand">
+          <span class="brand-mark">V</span>
+          <span>Vorsia GT</span>
+        </div>
+        <div class="nav-links">
+          <a href="#systems">Systems</a>
+          <a href="#telemetry">Telemetry</a>
+          <a href="#aero">Aero</a>
+          <a href="#notes">Notes</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Fictional Automotive Engineering Concept</p>
+          <h1>Vorsia GT Technical Explorer</h1>
+          <p class="hero-text">
+            Static web interface for a fictional high-performance GT car. The explorer presents
+            drivetrain, aerodynamics, chassis, cooling and telemetry as an interactive technical dashboard.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#systems">Explore systems</a>
+            <a class="button secondary" href="#telemetry">View telemetry</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Vehicle summary">
+          <div>
+            <span>Concept class</span>
+            <strong>Hybrid GT</strong>
+          </div>
+          <div>
+            <span>Layout</span>
+            <strong>Mid-engine AWD</strong>
+          </div>
+          <div>
+            <span>Purpose</span>
+            <strong>Portfolio demo</strong>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main id="main">
+      <section class="spec-strip" aria-label="Core specifications">
+        <article>
+          <span>Power target</span>
+          <strong id="powerMetric">920 hp</strong>
+        </article>
+        <article>
+          <span>Torque target</span>
+          <strong id="torqueMetric">980 Nm</strong>
+        </article>
+        <article>
+          <span>Mass target</span>
+          <strong id="massMetric">1480 kg</strong>
+        </article>
+        <article>
+          <span>Downforce mode</span>
+          <strong id="downforceMetric">balanced</strong>
+        </article>
+      </section>
+
+      <section id="systems" class="explorer-grid">
+        <div class="canvas-card">
+          <div class="section-heading">
+            <p class="eyebrow">Interactive subsystem map</p>
+            <h2>Vehicle architecture</h2>
+          </div>
+          <canvas id="vehicleCanvas" width="1100" height="620" aria-label="Stylized vehicle technical subsystem map"></canvas>
+          <p class="canvas-caption">
+            Select a subsystem to highlight its approximate zone. This is a conceptual technical drawing, not a CAD model.
+          </p>
+        </div>
+
+        <aside class="system-card">
+          <div class="section-heading compact">
+            <p class="eyebrow">Selected system</p>
+            <h2 id="systemTitle">Hybrid drivetrain</h2>
+          </div>
+          <p id="systemDescription">
+            Twin electric front axle support and combustion rear drive are represented as a fictional hybrid GT layout.
+          </p>
+
+          <div class="button-grid" id="systemButtons" aria-label="Subsystem selector"></div>
+
+          <dl class="detail-list">
+            <div>
+              <dt>Subsystem code</dt>
+              <dd id="systemCode">VGT-HYB</dd>
+            </div>
+            <div>
+              <dt>Engineering theme</dt>
+              <dd id="systemTheme">Power delivery</dd>
+            </div>
+            <div>
+              <dt>Validation</dt>
+              <dd>Concept only</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="telemetry" class="telemetry-section">
+        <div class="section-heading">
+          <p class="eyebrow">Live-style synthetic telemetry</p>
+          <h2>Dashboard simulation</h2>
+        </div>
+
+        <div class="telemetry-grid">
+          <article class="telemetry-card">
+            <span>Speed</span>
+            <strong id="speedValue">0</strong>
+            <small>km/h synthetic</small>
+          </article>
+          <article class="telemetry-card">
+            <span>Battery assist</span>
+            <strong id="batteryValue">0</strong>
+            <small>% simulated</small>
+          </article>
+          <article class="telemetry-card">
+            <span>Brake temp</span>
+            <strong id="brakeValue">0</strong>
+            <small>°C simulated</small>
+          </article>
+          <article class="telemetry-card">
+            <span>Aero load</span>
+            <strong id="aeroValue">0</strong>
+            <small>kg equivalent</small>
+          </article>
+        </div>
+
+        <div class="telemetry-controls">
+          <label>
+            Simulation intensity
+            <input id="intensitySlider" type="range" min="0.2" max="2.0" step="0.01" value="1.0">
+          </label>
+          <label>
+            Aero balance
+            <input id="aeroSlider" type="range" min="0.0" max="1.0" step="0.01" value="0.55">
+          </label>
+          <button id="resetTelemetryButton">Reset telemetry</button>
+        </div>
+      </section>
+
+      <section id="aero" class="technical-panels">
+        <article class="info-panel">
+          <p class="eyebrow">Aerodynamic model</p>
+          <h2>Active aero surfaces</h2>
+          <p>
+            The fictional model includes front splitter loading, underfloor channel acceleration,
+            rear diffuser extraction and adaptive rear wing angle. These zones are represented visually
+            for technical storytelling and UI demonstration.
+          </p>
+        </article>
+
+        <article class="info-panel">
+          <p class="eyebrow">Drivetrain model</p>
+          <h2>Hybrid torque vectoring</h2>
+          <p>
+            The concept separates combustion rear drive from electric front axle support. This allows the
+            interface to explain launch assist, corner exit torque shaping and regenerative braking.
+          </p>
+        </article>
+
+        <article class="info-panel">
+          <p class="eyebrow">Cockpit model</p>
+          <h2>Driver information layer</h2>
+          <p>
+            The dashboard is imagined as a telemetry-first interface: speed, energy assist, brake state,
+            aero load and system warnings are prioritized over decorative information.
+          </p>
+        </article>
+      </section>
+
+      <section id="notes" class="notes-section">
+        <div class="section-heading">
+          <p class="eyebrow">Responsible note</p>
+          <h2>Fictional concept, real interface practice</h2>
+        </div>
+        <p>
+          Vorsia GT is a fictional automotive concept created for web design and technical communication.
+          It is not a real vehicle and is not affiliated with any manufacturer. The value of this repository
+          is in the clean static architecture, visual engineering explanation and portfolio-ready presentation.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Reconstructed static skeleton</span>
+      <span>Fictional concept vehicle</span>
+      <span>No manufacturer affiliation</span>
+    </footer>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

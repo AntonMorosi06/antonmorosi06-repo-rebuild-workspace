@@ -1,13 +1,15 @@
-# Known Limitations
+# Known limitations
 
-This file must be completed before publication.
+Vorsia GT is a fictional concept.
 
-Current known limitations:
+The vehicle is not physically validated.
 
-- Original source code has not yet been imported into this rebuild folder.
-- The source repository may contain old names, broken run commands, missing requirements or draft files.
-- Claims must be checked against what the code actually implements.
-- Generated outputs and local environment files must not be committed.
-- Screenshots and run evidence are not yet included.
-- If the repository uses AI, healthcare, microphone, OpenAI, external APIs or user data, privacy and ethical limitations must be documented.
-- If the repository is MicroBot-related, distinguish clearly between concept, simulation, mock, offline validation, hardware-ready and hardware-validated.
+The telemetry is synthetic.
+
+The canvas drawing is not a CAD model.
+
+The project does not currently include a real 3D GLB viewer.
+
+No real automotive manufacturer is involved.
+
+The site is a portfolio and interface design exercise, not a product configurator for a real car.
