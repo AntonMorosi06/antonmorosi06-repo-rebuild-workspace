@@ -1,22 +1,9 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-italian-voice-chatbot
+Italian Voice Chatbot is an educational voice and text assistant project. It demonstrates how to build a small Italian rule-based chatbot with optional speech input and text-to-speech output.
 
-One-line summary:
-Italian voice chatbot prototype using SpeechRecognition, pyttsx3 and rule-based responses.
+The project shows practical understanding of Python packaging, command-line interfaces, text normalization, intent matching, transcript export, optional dependency handling, privacy documentation and user-facing error messages.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
+The strongest portfolio angle is that the repository is honest and robust. It does not pretend to be a full AI assistant. It clearly separates stable text mode from optional voice mode and explains the privacy limitations of microphone-based interaction.
 
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The project can later be connected conceptually to MicroBot as a voice-command layer for demos, dashboard navigation or telemetry summaries, but only after safety and command validation are designed.

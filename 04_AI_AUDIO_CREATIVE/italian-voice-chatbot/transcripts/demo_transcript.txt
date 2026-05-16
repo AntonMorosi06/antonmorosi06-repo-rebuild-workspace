@@ -1,0 +1,13 @@
+Italian Voice Chatbot Transcript
+Demo transcript with neutral non-private content
+
+[demo] user: ciao
+[demo] assistant: Ciao, sono qui. Dimmi pure cosa vuoi fare.
+[demo] user: chi sei?
+[demo] assistant: Sono un piccolo chatbot italiano ricostruito come progetto educativo. Non sono un modello generativo completo: rispondo tramite regole, intenti e frasi preparate.
+[demo] user: parlami di microbot
+[demo] assistant: MicroBot può essere spiegato come un ecosistema modulare: simulazione, firmware, dashboard, telemetria, prototipi fisici e documentazione tecnica devono restare separati ma coerenti.
+[demo] user: privacy
+[demo] assistant: La modalità testo non usa il microfono. La modalità voce dipende dalle librerie installate e dal backend di riconoscimento. Per test sicuri evita dati personali.
+[demo] user: esci
+[demo] assistant: Va bene, chiudo la conversazione. A dopo.
