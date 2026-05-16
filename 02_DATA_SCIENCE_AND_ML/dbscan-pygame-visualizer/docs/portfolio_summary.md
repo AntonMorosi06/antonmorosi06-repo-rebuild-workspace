@@ -1,22 +1,9 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-dbscan-pygame-visualizer
+DBSCAN Pygame Visualizer is an educational machine learning visualization project. It demonstrates density-based clustering through a real-time graphical interface.
 
-One-line summary:
-Interactive DBSCAN clustering visualization with Pygame and scikit-learn.
+The project shows practical understanding of NumPy, Pygame, clustering algorithms, interactive visualization, software structure, documentation, and repository hygiene. It is intentionally reconstructed as a clean public skeleton rather than copied from an old unavailable repository.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
+The strongest portfolio angle is the combination of algorithmic clarity and interactive explanation. A viewer can change eps and min_samples and immediately observe how density assumptions change the resulting clusters.
 
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+This project can also be connected conceptually to MicroBot telemetry. In a swarm robotics context, clustering methods can help reason about local density, spatial formations, anomalous nodes, local neighborhoods, and distributed sensor readings.
