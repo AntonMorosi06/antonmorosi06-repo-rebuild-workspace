@@ -1,0 +1,7 @@
+AI Vocal API Stipendio Demo Transcript
+
+[demo] user: train the synthetic salary classifier
+[demo] system: model trained with numpy logistic regression
+[demo] user: predict age 32, experience 8, education level 3, current salary 52000
+[demo] assistant: educational result only, positive or negative synthetic class with probability
+[demo] warning: this model is synthetic and must not be used for real salary or employment decisions
