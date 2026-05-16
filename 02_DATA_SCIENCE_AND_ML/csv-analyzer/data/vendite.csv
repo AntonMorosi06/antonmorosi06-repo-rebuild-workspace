@@ -1,0 +1,11 @@
+id_cliente,nome,eta,sesso,prodotto,quantita,prezzo_unitario,data_acquisto
+1,Marco,28,M,Telefono,1,699.00,2026-01-10
+2,Giulia,34,F,Computer,1,1299.00,2026-01-12
+3,Luca,22,M,Tablet,2,399.00,2026-01-13
+4,Sara,41,F,Smartwatch,1,249.00,2026-01-15
+5,Andrea,31,M,Auricolari,3,89.00,2026-01-16
+6,Francesca,27,F,Telefono,1,799.00,2026-01-18
+7,Matteo,45,M,Computer,2,1199.00,2026-01-20
+8,Elena,38,F,Tablet,1,449.00,2026-01-21
+9,Paolo,29,M,Smartwatch,2,229.00,2026-01-22
+10,Chiara,33,F,Auricolari,1,99.00,2026-01-23

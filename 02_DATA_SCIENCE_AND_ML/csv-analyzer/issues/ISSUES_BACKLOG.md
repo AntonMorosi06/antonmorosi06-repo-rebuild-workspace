@@ -1,93 +1,81 @@
 # Issues Backlog for csv-analyzer
 
-Source: AntonMorosi2234/CSV_ANALYZER
-
-## Planned Issues
-
-### Issue 01: Add requirements.txt and .gitignore.
+## Issue 01: Validate CLI execution
 
 Goal:
-Prepare or improve: Add requirements.txt and .gitignore.
+Confirm the command-line analyzer works on the demo dataset.
+
+Tasks:
+- [ ] Create virtual environment.
+- [ ] Install requirements.
+- [ ] Run CLI on data/vendite.csv.
+- [ ] Save terminal output.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- CLI prints row count, column count, missing values and numeric summary.
 
-### Issue 02: Refactor shared CSV analysis logic into csv_analyzer/core.py.
+## Issue 02: Validate report generation
 
 Goal:
-Prepare or improve: Refactor shared CSV analysis logic into csv_analyzer/core.py.
+Confirm Markdown report generation.
+
+Tasks:
+- [ ] Run with --report.
+- [ ] Confirm reports/generated/csv_analysis_report.md exists.
+- [ ] Inspect generated report.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Report is readable and contains major sections.
 
-### Issue 03: Align GUI loader with CLI smart separator detection.
+## Issue 03: Validate histogram generation
 
 Goal:
-Prepare or improve: Align GUI loader with CLI smart separator detection.
+Confirm numeric histograms are generated.
+
+Tasks:
+- [ ] Run with --plots.
+- [ ] Confirm PNG files exist.
+- [ ] Inspect at least one plot.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Histogram PNG files are generated for numeric columns.
 
-### Issue 04: Move sample dataset into data.
+## Issue 04: Validate GUI
 
 Goal:
-Prepare or improve: Move sample dataset into data.
+Confirm Tkinter GUI opens and analyzes a CSV.
+
+Tasks:
+- [ ] Run python -m csv_analyzer.gui.
+- [ ] Open data/vendite.csv.
+- [ ] Save screenshot.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- GUI displays analysis summary.
 
-### Issue 05: Add GUI screenshot evidence.
+## Issue 05: Add tests
 
 Goal:
-Prepare or improve: Add GUI screenshot evidence.
+Add tests for smart CSV reading and analysis output.
+
+Tasks:
+- [ ] Add pytest.
+- [ ] Test comma-separated file.
+- [ ] Test semicolon-separated file.
+- [ ] Test missing values.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- Tests pass locally.
 
-### Issue 06: Add sample report outputs.
+## Issue 06: Add MicroBot telemetry example
 
 Goal:
-Prepare or improve: Add sample report outputs.
+Prepare future connection to MicroBot telemetry analytics.
+
+Tasks:
+- [ ] Add synthetic MicroBot telemetry CSV.
+- [ ] Analyze voltage, current, temperature and state.
+- [ ] Add docs/microbot_telemetry_relevance.md.
 
 Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 07: Add known limitations document.
-
-Goal:
-Prepare or improve: Add known limitations document.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
-
-### Issue 08: Add tests for CSV loading and report generation.
-
-Goal:
-Prepare or improve: Add tests for CSV loading and report generation.
-
-Acceptance criteria:
-- The change is committed with a clear message.
-- README or docs are updated if needed.
-- No secrets, private files, generated environments or large archives are introduced.
-- The status of the repository is more accurate after the change.
+- The project demonstrates indirect MicroBot relevance.

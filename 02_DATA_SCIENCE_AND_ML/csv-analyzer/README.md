@@ -1,23 +1,75 @@
-# csv-analyzer
+# CSV Analyzer
 
-Source repository: AntonMorosi2234/CSV_ANALYZER
+CSV Analyzer is a cleaned and reconstructed Python data-analysis utility inspired by the original `AntonMorosi2234/CSV_ANALYZER` repository.
 
-Planned role:
-Python CSV analyzer with CLI, Tkinter GUI, Pandas and Matplotlib.
+This version is not cloned automatically from the old repository. It is rebuilt as a clean, portfolio-ready skeleton based on the repository analysis: command-line CSV analysis, smart separator detection, Pandas summaries, missing-value reports, correlation output, Matplotlib histograms and a small Tkinter GUI.
 
-Priority:
-Medium-High
+## Current status
 
-Current classification:
-Quick win. Public-style tool after cleanup.
+Status: reconstructed functional skeleton.
 
-MicroBot relevance:
-Indirect telemetry analytics relevance
+This repository contains:
 
-This folder is a rebuild workspace. It does not yet contain the original source code. The purpose is to prepare a cleaner, safer and more professional version of the source repository before publication or migration to AntonMorosi06.
+- a reusable package in `csv_analyzer/`;
+- a command-line interface;
+- a Tkinter GUI;
+- a sample synthetic dataset in `data/vendite.csv`;
+- generated reports folder;
+- documentation;
+- issue backlog;
+- labels.
 
-Immediate rule:
-Do not copy generated environments, secrets, private files, large archives, broken outputs, node_modules, .venv folders, API keys, .env files, personal data or unverified claims.
+## What this project does
 
-Recommended next step:
-Import the original source files manually, then apply the issues listed in issues/ISSUES_BACKLOG.md.
+CSV Analyzer can:
+
+- load CSV files;
+- detect common separators;
+- display row and column counts;
+- list column names;
+- show data types;
+- show head rows;
+- calculate numeric descriptive statistics;
+- calculate missing-value counts;
+- calculate numeric correlation matrix when possible;
+- save a Markdown report;
+- generate numeric histograms;
+- provide a simple desktop GUI.
+
+## What this project is not
+
+This is not a full business-intelligence platform. It does not replace advanced notebook analysis, ETL systems or production dashboards. It is a compact educational and portfolio tool for exploring CSV files quickly.
+
+## Install
+
+From this folder:
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+
+## Run CLI
+
+Analyze the demo dataset:
+
+    python -m csv_analyzer --file data/vendite.csv --report --plots
+
+Show help:
+
+    python -m csv_analyzer --help
+
+## Run GUI
+
+    python -m csv_analyzer.gui
+
+## Output
+
+Generated reports and plots go to:
+
+    reports/generated/
+
+Generated outputs are ignored by Git except folder placeholders.
+
+## Portfolio positioning
+
+This project demonstrates Python, Pandas, Matplotlib, CLI design, basic GUI design and clean project packaging. It is useful as a small data-analysis proof-of-work and can later connect conceptually to MicroBot telemetry analytics.

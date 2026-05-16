@@ -1,22 +1,18 @@
 # Portfolio Summary
 
-Project:
-csv-analyzer
+CSV Analyzer demonstrates a small but complete Python data-analysis utility.
 
-One-line summary:
-Python CSV analyzer with CLI, Tkinter GUI, Pandas and Matplotlib.
+It shows:
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
+- project packaging;
+- command-line design;
+- Pandas data loading;
+- separator detection;
+- missing-value analysis;
+- numeric statistics;
+- correlation matrix generation;
+- Matplotlib output;
+- Tkinter GUI basics;
+- report generation.
 
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+This project can be presented as a compact data-analysis proof-of-work and as a foundation for future MicroBot telemetry analytics.

@@ -1,0 +1,27 @@
+- name: python
+  color: "3572A5"
+  description: "Python code"
+- name: data-analysis
+  color: "0e8a16"
+  description: "CSV, Pandas and analysis features"
+- name: gui
+  color: "1d76db"
+  description: "Tkinter GUI"
+- name: cli
+  color: "5319e7"
+  description: "Command-line interface"
+- name: plotting
+  color: "fbca04"
+  description: "Matplotlib plots"
+- name: documentation
+  color: "0366d6"
+  description: "README and docs"
+- name: testing
+  color: "fbca04"
+  description: "Tests and validation"
+- name: microbot-alignment
+  color: "0052cc"
+  description: "Relation to MicroBot telemetry analytics"
+- name: portfolio-ready
+  color: "0e8a16"
+  description: "Required before public presentation"
