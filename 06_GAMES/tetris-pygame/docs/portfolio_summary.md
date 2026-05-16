@@ -1,22 +1,7 @@
-# Portfolio Summary
+# Portfolio summary
 
-Project:
-tetris-pygame
+Tetris Pygame is a reconstructed game project demonstrating clean Python game architecture.
 
-One-line summary:
-Advanced Python/Pygame Tetris clone.
+The project shows practical understanding of state modeling, collision detection, board representation, tetromino rotation, line clearing, scoring, high score persistence, Pygame rendering, game-loop timing and tests.
 
-Why it matters:
-This project can contribute to the larger Anton Morosi technical portfolio if cleaned, documented and presented honestly.
-
-Portfolio status:
-Not ready yet.
-
-Before presenting publicly:
-
-- Add a clear README.
-- Add setup and run instructions.
-- Add screenshots, terminal output or demo evidence.
-- Add known limitations.
-- Add source/documentation alignment notes.
-- Check that no private data, secrets or generated environments are committed.
+The strongest portfolio angle is that the core logic is separated from the rendering layer. This makes the project more professional than a single monolithic game script.
